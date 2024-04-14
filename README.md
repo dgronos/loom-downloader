@@ -11,7 +11,7 @@ To run this tool, you need to have Python and pip installed on your machine.
 
 ### Installation
 
-    Clone the repo: 'git clone https://github.com/YourUsername/python-loom-downloader.git'
+    Clone the repo: 'git clone https://github.com/dgronos/python-loom-downloader.git'
 
 ### Install required Python packages:
 
