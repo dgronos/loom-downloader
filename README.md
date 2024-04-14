@@ -1,7 +1,5 @@
 ---
-# Loom Video Downloader
-
-Python Loom Video Downloader
+# Python Loom Video Downloader
 
 Python Loom Video Downloader is a command-line tool written in Python to download videos from loom.com. It retrieves the video download link based on the video ID extracted from the provided URL and saves the video with the original video title as the filename, or using a specified filename prefix for multiple files.
 
