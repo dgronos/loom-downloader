@@ -47,14 +47,14 @@ Download Multiple Videos
 To download multiple videos listed in a text file, use the --list option. Create a text file with one video URL per line and pass the file path to the script:
 
 ```
-python loom_video_downloader.py --list path/to/urls.txt
+python loom_video_downloader.py --list path/to/urls_list.txt
 ```
 By default, each video will be saved using the video title as the filename.
 
 You can specify a filename prefix with the --prefix option. The script will append an auto-incrementing number to each downloaded video:
 
 ```
-python loom_video_downloader.py --list path/to/urls.txt --prefix download --out path/to/output
+python loom_video_downloader.py --list path/to/urls_list.txt --prefix download --out path/to/output
 ```
 This will save the videos with the specified prefix "download" and an incremented number in the given output directory.
 
@@ -67,7 +67,7 @@ Avoid Rate Limiting
 To prevent getting rate-limited, a timeout can be set between downloads using the --timeout option:
 
 ```
-python loom_video_downloader.py --list path/to/urls.txt --prefix download --out path/to/output --timeout 5
+python loom_video_downloader.py --list path/to/urls_list.txt --prefix download --out path/to/output --timeout 5
 ```
 This will add a 5-second wait time between each download. Adjust as needed.
 Contributing
